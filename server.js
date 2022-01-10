@@ -19,7 +19,7 @@ var routes = require('./api/routes/ToDoListRoutes');
 // register the route
 routes(app);
 
-// 
+// route not found middleware
 app.use(function(req, res) {
     res.status(404).send({
         url: req.originalUrl + ' not found'
