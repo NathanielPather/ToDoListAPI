@@ -1,0 +1,31 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "Restful ToDoListAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanielPather/ToDoListAPI.git"
+  },
+  "keywords": [
+    "RESTFUL",
+    "API"
+  ],
+  "author": "Nathaniel Pather",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanielPather/ToDoListAPI/issues"
+  },
+  "homepage": "https://github.com/NathanielPather/ToDoListAPI#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.5"
+  }
+}
